@@ -7,8 +7,8 @@ from docx.oxml.ns import qn
 from PIL import Image, ImageDraw, ImageFont
 
 
-DOCX = Path(r"D:\Code\知光正版\zhiguang_be-main\output\简历1-项目1深度优化.docx")
-OUT_DIR = Path(r"D:\Code\知光正版\zhiguang_be-main\tmp\resume-work\qa-render")
+DOCX = Path(r"D:\Code\知光正版\zhiguang_be-main\output\简历1-项目1产品包装版.docx")
+OUT_DIR = Path(r"D:\Code\知光正版\zhiguang_be-main\tmp\resume-work\qa-productized-fallback")
 DPI = 144
 EMU_PER_INCH = 914400
 PT_TO_PX = DPI / 72
